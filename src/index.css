@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '@fontsource/poppins';
+
+  
+  @media (max-width: 768px) {
+    html {
+      overflow-x: hidden !important; 
+    };  
+    body{
+      overflow-x: hidden !important;
+    };
+  }
+
+
+  html{
+
+    overflow-x: hidden !important; 
+  }
+  
+  body {
+    overflow-x: hidden !important;
+      scrollbar-width: none; 
+      position: relative;
+    }
+  
+    ::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+    }
