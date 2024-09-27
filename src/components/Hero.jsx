@@ -17,7 +17,7 @@ function Hero() {
         <div className=" col-1 md:w-[400px] rounded-full overflow-hidden">
           <img
             className="w-full h-full object-contain"
-            src="src\assets\formal3.png"
+            src="../src/assets/formal3.png"
             alt="Profile"
           />
         </div>
