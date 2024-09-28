@@ -1,4 +1,4 @@
-import { BsPatchCheckFill } from "react-icons/bs";
+import { FcApproval } from "react-icons/fc";
 
 
 
@@ -6,8 +6,8 @@ import { BsPatchCheckFill } from "react-icons/bs";
 function SmallExCard({tech , level}) {
   return (
     <div className="items flex md:flex gap-3 justify-center align-center relative">
-      <div className="absolute left-[20px] md:left-[-8px] top-[5px]">
-        <BsPatchCheckFill fontSize={25} />
+      <div className="absolute left-[20px] sm:left-[70px] md:max-xl:left-[-13px] xl:left-[20px]  top-[5px]">
+        <FcApproval fontSize={25} />
       </div>
       
       <div className="">

@@ -12,7 +12,7 @@ function Project() {
           <div className="mb-3 text-[#555555]">Browse My Recent</div>
           <div className="text-[40px] md:text-[45px] font-bold">Projects</div>
         </div>
-        <div className="flex flex-wrap p-[10px] xl:flex xl:flex-nowrap gap-9">
+        <div className="flex flex-wrap p-[10px] xl:flex xl:flex-nowrap gap-10 sm:gap-9">
           
           <ProjectCard link="https://github.com/Priyanshu-Shrivastav/swiggy-clone" img={food1} title="BiteBuddy"/>
           <ProjectCard link="https://github.com/Priyanshu-Shrivastav/Netflix-Clone" img={netflims} title="Netflims"/>

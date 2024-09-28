@@ -15,7 +15,7 @@ function Hero() {
   return (
     <div className=" flex items-center justify-center w-full h-full m-auto">
       <div className="flex flex-wrap p-5 mt-[130px] md:flex md:mt-[190px] md:mb-[50px] gap-[2rem] md:gap-[5.75rem]">
-        <div className=" col-1 w-[80%] sm:w-[400px] rounded-full overflow-hidden mx-auto">
+        <div className=" col-1 sm:w-[400px] rounded-full overflow-hidden mx-auto">
           <img
             className="w-full h-full object-contain"
             src={formal3}
