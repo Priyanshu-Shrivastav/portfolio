@@ -2,6 +2,7 @@ import { SiLinkedin } from "react-icons/si";
 import { FaSquareGithub } from "react-icons/fa6";
 import { TypeAnimation } from "react-type-animation";
 import resume from "../assets/resume.pdf";
+import formal3 from '../assets/formal3.png';
 
 function Hero() {
 
@@ -17,7 +18,7 @@ function Hero() {
         <div className=" col-1 md:w-[400px] rounded-full overflow-hidden">
           <img
             className="w-full h-full object-contain"
-            src="../src/assets/formal3.png"
+            src={formal3}
             alt="Profile"
           />
         </div>
