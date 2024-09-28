@@ -1,5 +1,6 @@
 import { IoRibbonSharp } from "react-icons/io5";
 import { PiStudentBold } from "react-icons/pi";
+import programmer from '../assets/programmer.gif';
 
 function About() {
   return (
@@ -14,7 +15,7 @@ function About() {
             <div className="md:w-[400px] md:h-[400px] rounded-[30px] overflow-hidden border-[2px] border-[#A3A3A3]">
                 <img
                 className="w-full h-full object-contain"
-                src="src\assets\programmer.gif"
+                src={programmer}
                 alt=""
                 />
             </div>

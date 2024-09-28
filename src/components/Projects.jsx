@@ -1,4 +1,7 @@
 import ProjectCard from "./ProjectCard";
+import food1 from '../assets/food1.png';
+import netflims from '../assets/netflims.png';
+import shopping from '../assets/shopping.png';
 
 
 function Project() {
@@ -11,9 +14,9 @@ function Project() {
         </div>
         <div className="flex flex-wrap p-[10px] md:flex md:flex-nowrap gap-9">
           
-          <ProjectCard link="https://github.com/Priyanshu-Shrivastav/swiggy-clone" img="src\assets\food1.png" title="BiteBuddy"/>
-          <ProjectCard link="https://github.com/Priyanshu-Shrivastav/Netflix-Clone" img="src\assets\netflims.png" title="Netflims"/>
-          <ProjectCard link="https://github.com/Priyanshu-Shrivastav/eCommerce-website" img="src\assets\shopping.png" title="Red Store"/>
+          <ProjectCard link="https://github.com/Priyanshu-Shrivastav/swiggy-clone" img={food1} title="BiteBuddy"/>
+          <ProjectCard link="https://github.com/Priyanshu-Shrivastav/Netflix-Clone" img={netflims} title="Netflims"/>
+          <ProjectCard link="https://github.com/Priyanshu-Shrivastav/eCommerce-website" img={shopping} title="Red Store"/>
 
             
           
