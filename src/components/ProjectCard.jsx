@@ -13,7 +13,7 @@ function ProjectCard({ link, img, title }) {
   };
 
   return (
-    <div className="relative p-[15px] border-[2px] border-[#A3A3A3] rounded-[2rem] md:basis-[27%] md:p-10 text-center">
+    <div className="relative p-[15px] border-[2px] border-[#A3A3A3] rounded-[2rem] md:basis-[27%] md:p-10 text-center m-auto ">
       <div>
         <div className="rounded-[2rem] overflow-hidden">
           <img className="w-full h-full object-contain" src={img} alt={title} />

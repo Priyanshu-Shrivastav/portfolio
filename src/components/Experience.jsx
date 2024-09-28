@@ -9,7 +9,7 @@ function Experience() {
           <div className="mb-3 text-[#555555]">Explore My</div>
           <div className="text-[40px] md:text-[45px] font-bold">Experience</div>
         </div>
-        <div className="flex flex-col px-5 md:p-5 md:flex md:flex-row gap-7">
+        <div className="flex flex-col px-5 xl:p-5 xl:flex xl:flex-row gap-7">
           
           <ExCard1 />
           <ExCard2 />

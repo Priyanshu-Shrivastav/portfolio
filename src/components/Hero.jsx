@@ -15,14 +15,14 @@ function Hero() {
   return (
     <div className=" flex items-center justify-center w-full h-full m-auto">
       <div className="flex flex-wrap p-5 mt-[130px] md:flex md:mt-[190px] md:mb-[50px] gap-[2rem] md:gap-[5.75rem]">
-        <div className=" col-1 md:w-[400px] rounded-full overflow-hidden">
+        <div className=" col-1 w-[80%] sm:w-[400px] rounded-full overflow-hidden mx-auto">
           <img
             className="w-full h-full object-contain"
             src={formal3}
             alt="Profile"
           />
         </div>
-        <div className="col-1 flex flex-col items-center justify-center  text-center gap-[20px] md:gap-[25px]">
+        <div className="col-1 flex flex-col items-center justify-center  text-center gap-[20px] md:gap-[25px] mx-auto">
           <div className="font-semibold text-[#555555] text-[18px] tracking-tight">
             Hello , I'm 👋
           </div>
