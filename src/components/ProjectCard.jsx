@@ -1,7 +1,7 @@
 import DismissibleAlert from "./DismissibleAlert";
 import { useState } from "react";
 
-function ProjectCard({ link, img, title }) {
+function ProjectCard({ link, img, title, webUrl }) {
   const [isAlertVisible, setIsAlertVisible] = useState(false);
 
   const showAlert = () => {
@@ -28,19 +28,24 @@ function ProjectCard({ link, img, title }) {
             </button>
           </a>
 
-          <button
-            onClick={showAlert}
-            className="rounded-full w-[8rem] border-[2px] border-[#A3A3A3] py-3 px-4 text-[12px] font-semibold tracking-tight hover:bg-black hover:text-white hover:duration-500 hover:transition-all"
-          >
-            Live Demo
-          </button>
+          <a href={webUrl} target="_blank">
+            <button
+              // onClick={showAlert}
+              className="rounded-full w-[8rem] border-[2px] border-[#A3A3A3] py-3 px-4 text-[12px] font-semibold tracking-tight hover:bg-black hover:text-white hover:duration-500 hover:transition-all"
+            >
+              Live Demo
+            </button>
+          </a>
         </div>
       </div>
 
       {/* Only render the alert when isAlertVisible is true */}
       {isAlertVisible && (
         <div className="absolute top-[6rem] left-0 right-0 mx-auto p-4">
-          <DismissibleAlert isVisible={isAlertVisible} onDismiss={handleDismiss} />
+          <DismissibleAlert
+            isVisible={isAlertVisible}
+            onDismiss={handleDismiss}
+          />
         </div>
       )}
     </div>
