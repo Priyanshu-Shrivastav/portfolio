@@ -14,7 +14,7 @@ function Project() {
         </div>
         <div className="flex flex-wrap p-[10px] xl:flex xl:flex-nowrap gap-10 sm:gap-9">
           
-          <ProjectCard link="https://github.com/Priyanshu-Shrivastav/swiggy-clone" webUrl="https://bite-buddy-woad.vercel.app/" img={food1} title="BiteBuddy"/>
+          <ProjectCard link="https://github.com/Priyanshu-Shrivastav/BiteBuddy" webUrl="https://bite-buddy-woad.vercel.app/" img={food1} title="BiteBuddy"/>
           <ProjectCard link="https://github.com/Priyanshu-Shrivastav/Netflix-Clone"  webUrl="https://netflims-azure.vercel.app/" img={netflims} title="Netflims"/>
           <ProjectCard link="https://github.com/Priyanshu-Shrivastav/eCommerce-website"  webUrl="https://red-store-three.vercel.app/" img={shopping} title="Red Store"/>
 
