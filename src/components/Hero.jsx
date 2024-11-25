@@ -60,14 +60,14 @@ function Hero() {
           </div>
 
           <div className="mt-[10px] flex gap-5">
-            <a
+            <a className="hover:animate-ping  "
               target="_blank"
               href="https://www.linkedin.com/in/priyanshu-shrivastav-4b7141218/"
             >
               <SiLinkedin fontSize={27} />
             </a>
 
-            <a target="_blank" href="https://github.com/Priyanshu-Shrivastav">
+            <a className="hover:animate-ping  " target="_blank" href="https://github.com/Priyanshu-Shrivastav">
               <FaSquareGithub fontSize={27} />
             </a>
           </div>

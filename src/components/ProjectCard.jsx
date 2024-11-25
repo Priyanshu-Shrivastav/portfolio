@@ -16,7 +16,9 @@ function ProjectCard({ link, img, title, webUrl }) {
     <div className="relative p-[15px] border-[2px] border-[#A3A3A3] rounded-[2rem] md:basis-[27%] md:p-10 text-center m-auto ">
       <div>
         <div className="rounded-[2rem] overflow-hidden">
-          <img className="w-full h-full object-contain" src={img} alt={title} />
+          <a href={webUrl} target="_blank">
+            <img className="w-full h-full object-contain hover:scale-105 duration-300 cursor-pointer" src={img} alt={title} />
+          </a>
         </div>
         <div className="m-4 text-[1.5rem] md:text-[1.75rem] font-semibold">
           {title}
