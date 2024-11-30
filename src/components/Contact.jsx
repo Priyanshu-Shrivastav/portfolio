@@ -24,7 +24,7 @@ function Contact() {
           <div className="mb-3 text-[#555555]">Get in Touch</div>
           <div className="text-[40px] md:text-[45px] font-bold">Contact Me</div>
         </div>
-        <div className="grid grid-cols-1 gap-6 md:flex md:gap-7 border-[2px] border-[#A3A3A3] rounded-[2rem] p-[15px] md:p-8 w-fit m-auto">
+        <div className="shadow-lg hover:shadow-xl hover:cursor-pointer grid grid-cols-1 gap-6 md:flex md:gap-7 border-[2px] border-[#A3A3A3] rounded-[2rem] p-[15px] md:p-8 w-fit m-auto">
           
             <div className="flex flex-col items-center m-auto gap-3 md:flex md:flex-row md:gap-3">
                 <IoMail fontSize={27}/>
